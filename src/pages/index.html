@@ -1,0 +1,80 @@
+---
+layout: udacity-layout
+subject: Get a sneak peek of our machine learning projects!
+---
+
+<container class="shadow-border">
+    <row>
+        <columns class="hero">
+            <h1>{{ MLSneakPeak.hero }}</h1>
+        </columns>
+    </row>
+    <row>
+        <columns class="content">
+            <h2>{{ MLSneakPeak.title }}</h2>
+
+            <row>
+                <columns class="text">
+                    {{#each MLSneakPeak.body}}
+                    <p>{{ this }}</p>
+                    {{/each}}
+                </columns>
+            </row>
+
+            <h3>{{ MLSneakPeak.content.title }}</h3>
+
+            {{#each MLSneakPeak.content.projects}}
+                <row class="product">
+                    <columns small="12" large="3">
+                        <center class="hide-for-large"><img src="{{root}}/{{this.image}}" /></center>
+                        <img class="show-for-large" src="{{root}}/{{this.image}}" />
+                    </columns>
+                    <columns small="12" large="9">
+                        <row>
+                            <h4>{{ this.title }}</h4>
+                            <p>{{ this.description }}</p>
+                        </row>
+                    </columns>
+                </row>
+                <spacer class="hide-for-large" size="20"></spacer>
+            {{/each}}
+        </columns>
+    </row>
+    <row>
+        <columns style="min-width: auto" class="discount">
+            <h2>{{ MLSneakPeak.discount.title }}</h2>
+            <p>{{ MLSneakPeak.discount.text }}</p>
+            <center><button class="radius" href="#">Enroll Today</button></center>
+        </columns>
+    </row>
+</container>
+<container>
+    <row>
+        <columns small="1" large="4" style="background-color: #fafbfc !important;"></columns>
+        <columns small="10" large="4" style="padding-top: 30px; padding-bottom: 30px;background-color: #fafbfc !important;">
+            <row>
+                <columns style="padding-bottom: 0px">
+                    <a href="#">
+                        <img height="25" width="25" src="{{root}}/assets/img/twitter.jpg" />
+                    </a>
+                </columns>
+                <columns style="padding-bottom: 0px">
+                    <a href="#">
+                        <img height="25" width="25" src="{{root}}/assets/img/facebook.jpg" />
+                    </a>
+                </columns>
+                <columns style="padding-bottom: 0px">
+                    <a href="#">
+                        <img height="25" width="25" src="{{root}}/assets/img/instagram.png" />
+                    </a>
+                </columns>
+                <columns style="padding-bottom: 0px;">
+                    <a href="#">
+                        <img height="25" width="25" src="{{root}}/assets/img/linkedin.jpg" />
+                    </a>
+                </columns>
+            </row>
+        </columns>
+        <columns small="1" large="4" style="background-color: #fafbfc !important;"></columns>
+    </row>
+</container>

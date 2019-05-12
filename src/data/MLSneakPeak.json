@@ -1,0 +1,32 @@
+{
+    "hero": "Discover the Machine Learning Program Projects",
+    "title": "Showcase Your Skills with Real-world Projects in our Intro and Advanced Machine Learning Programs",
+    "body": [
+        "Get a hands-on learning experience with actionable project feedback from project reviewers to make sure you learn relevant new skills.",
+        "Dive into the projects you'll complete by reviewing the detailed syllabus for Intro to Machine Learning or Machine Learning Engineer Nanodegree programs."
+    ],
+    "content": {
+        "title": "You'll work on projects such as:",
+        "projects": [
+            {
+                "title": "Create an Image Classifier",
+                "description": "Implement an image classification application using a deep neural network. This application will train a deep learning model on a dataset of images. It will then use the trained model to classify new images. You will develop your code in a Jupyter notebook to ensure your implementation works well.",
+                "image": "assets/img/circle-1.png"
+            },
+            {
+                "title": "Plagiarism Detector",
+                "description": "Use your machine learning skills to compare two text sources and identify cases of plagiarism. In this project, you'll extract relevant text features and train a model of your own design to detect plagiarism. Then, you'll deploy your trained model using Amazon SageMaker.",
+                "image": "assets/img/circle-2.png"
+            },
+            {
+                "title": "Deploy a Sentiment Analysis Model",
+                "description": "Use a recurrent neural network for the purpose of determining the sentiment of a movie review using a dataset. You will create and deploy this model using Amazon SageMaker. After deploying your model, you will construct a simple web app which will interact with the deployed model and categorize any new input review.",
+                "image": "assets/img/circle-3.png"
+            }
+        ]
+    },
+    "discount": {
+        "title": "Get 10% Off Before April 30",
+        "text": "For only a few more days, use code MAX2019 to get 10% off your tuition. Don't miss your chance to learn invaluable skills for working with Big Data!"
+    }
+}

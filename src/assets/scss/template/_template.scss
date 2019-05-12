@@ -1,0 +1,163 @@
+// These are the styles to make some of the templates look extra nice.
+// Feel free to remove these styles for production!
+
+// Body Styles 
+body,
+html, 
+.body {
+  background: #f3f3f3 !important;
+}
+
+// .shadow-border {
+//   & > tbody > tr {
+//     border: 2px solid lightgray;
+//     border-style: solid;
+//     border-color: lightgray;
+//     border-top-width: 2px;
+//     border-bottom-width: 2px;
+//     border-left-width: 2px;
+//     border-right-width: 2px;
+//   }  
+// }
+
+.hero {
+  background-image: url("/assets/img/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 80px;
+  padding-bottom: 80px !important;
+  padding-left: 40px !important;
+  padding-right: 40px !important;
+
+  h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+  }
+}
+
+.content {
+  padding-top: 40px !important;
+  padding-bottom: 0px !important;
+  padding-left: 40px !important;
+  padding-right: 40px !important;
+
+  .text {
+    padding-bottom: 0px !important;
+
+    p {
+      padding-left: 10px !important;
+      padding-right: 10px !important;
+    }
+  }
+
+  h2 {
+    text-align: center;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-size: 21px;
+    font-weight: 500;
+    margin-bottom: 40px;
+  }
+
+  p {
+    text-align: center;
+    color: #102231;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+    margin-bottom: 25px;
+  }
+
+  h3 {
+    text-align: center;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 30px;
+  }
+
+  .product {
+    margin-bottom: 0px !important;
+
+    img {
+      height: 100px;
+      width: 100px;
+
+      &.show-for-large {
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+
+    h4 {
+      text-align: left;
+      color: #102231;
+      font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      font-weight: 700;
+    }
+
+    p {
+      text-align: left;
+      color: #525c65;
+      font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      font-weight: 300;
+      line-height: 2;
+    }
+  }
+}
+
+.discount {
+  min-width: auto;
+  background-color:#edf1f4; 
+
+  color: #102231;
+
+  h2 {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    padding-top: 30px !important;
+    text-align: center;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-size: 21px;
+    font-weight: 500;
+    margin-bottom: 30px;
+  }
+
+  p {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    text-align: center;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+    margin-bottom: 30px;
+  }
+
+  .button {
+    padding-bottom: 50px !important;
+    a {
+      background-color: #01b3e3;
+      padding-top: 15px !important;
+      padding-bottom: 15px !important;
+      padding-left: 100px !important;
+      padding-right: 100px !important;
+      text-transform: uppercase;
+      font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+      font-size: 18px;
+      font-weight: 500;
+    }
+  }
+}
+
+// .social-media {
+//   padding-top: 30px; 
+//   padding-bottom: 30px;
+
+//   th {
+//     padding-bottom: 0px;
+//   }
+// }
