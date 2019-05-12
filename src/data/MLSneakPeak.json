@@ -2,8 +2,8 @@
     "hero": "Discover the Machine Learning Program Projects",
     "title": "Showcase Your Skills with Real-world Projects in our Intro and Advanced Machine Learning Programs",
     "body": [
-        "Get a hands-on learning experience with actionable project feedback from project reviewers to make sure you learn relevant new skills.",
-        "Dive into the projects you'll complete by reviewing the detailed syllabus for Intro to Machine Learning or Machine Learning Engineer Nanodegree programs."
+        "<p>Get a hands-on learning experience with actionable project feedback from project reviewers to make sure you learn relevant new skills.</p>",
+        "<p>Dive into the projects you'll complete by reviewing the detailed syllabus for <a href='#'>Intro to Machine Learning</a> or <a href='#'>Machine Learning Engineer</a> Nanodegree programs.</p>"
     ],
     "content": {
         "title": "You'll work on projects such as:",
@@ -27,6 +27,6 @@
     },
     "discount": {
         "title": "Get 10% Off Before April 30",
-        "text": "For only a few more days, use code MAX2019 to get 10% off your tuition. Don't miss your chance to learn invaluable skills for working with Big Data!"
+        "text": "For only a few more days, use code <strong>MAX2019</strong> to get <strong>10% off your tuition</strong>. Don't miss your chance to learn invaluable skills for working with Big Data!"
     }
 }

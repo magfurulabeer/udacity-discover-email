@@ -16,7 +16,7 @@ subject: Get a sneak peek of our machine learning projects!
             <row>
                 <columns class="text">
                     {{#each MLSneakPeak.body}}
-                    <p>{{ this }}</p>
+                    {{{ this }}}
                     {{/each}}
                 </columns>
             </row>
@@ -43,38 +43,38 @@ subject: Get a sneak peek of our machine learning projects!
     <row>
         <columns style="min-width: auto" class="discount">
             <h2>{{ MLSneakPeak.discount.title }}</h2>
-            <p>{{ MLSneakPeak.discount.text }}</p>
+            <p>{{{ MLSneakPeak.discount.text }}}</p>
             <center><button class="radius" href="#">Enroll Today</button></center>
         </columns>
     </row>
 </container>
-<container>
+<container class="social-media" >
     <row>
-        <columns small="1" large="4" style="background-color: #fafbfc !important;"></columns>
-        <columns small="10" large="4" style="padding-top: 30px; padding-bottom: 30px;background-color: #fafbfc !important;">
+        <columns small="3" large="4" style="background-color: #fafbfc !important;"></columns>
+        <columns small="6" large="4" style="padding-top: 30px; padding-bottom: 30px;background-color: #fafbfc !important;">
             <row>
-                <columns style="padding-bottom: 0px">
+                <columns small="3" style="padding-bottom: 0px">
                     <a href="#">
-                        <img height="25" width="25" src="{{root}}/assets/img/twitter.jpg" />
+                        <img height="25" width="25" src="{{root}}/assets/img/twitter.jpg" />                        
                     </a>
                 </columns>
-                <columns style="padding-bottom: 0px">
+                <columns small="3"  style="padding-bottom: 0px">
                     <a href="#">
                         <img height="25" width="25" src="{{root}}/assets/img/facebook.jpg" />
                     </a>
                 </columns>
-                <columns style="padding-bottom: 0px">
+                <columns small="3"  style="padding-bottom: 0px">
                     <a href="#">
                         <img height="25" width="25" src="{{root}}/assets/img/instagram.png" />
                     </a>
                 </columns>
-                <columns style="padding-bottom: 0px;">
+                <columns small="3"  style="padding-bottom: 0px;">
                     <a href="#">
                         <img height="25" width="25" src="{{root}}/assets/img/linkedin.jpg" />
                     </a>
                 </columns>
             </row>
         </columns>
-        <columns small="1" large="4" style="background-color: #fafbfc !important;"></columns>
+        <columns small="3" large="4" style="background-color: #fafbfc !important;"></columns>
     </row>
 </container>

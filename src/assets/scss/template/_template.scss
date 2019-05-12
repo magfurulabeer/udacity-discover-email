@@ -2,10 +2,15 @@
 // Feel free to remove these styles for production!
 
 // Body Styles 
+* {
+  padding: 0;
+  margin: 0;
+}
+
 body,
 html, 
 .body {
-  background: #f3f3f3 !important;
+  background: #fafbfc !important;
 }
 
 // .shadow-border {
@@ -19,6 +24,13 @@ html,
 //     border-right-width: 2px;
 //   }  
 // }
+.logo-header {
+  img {
+    height: 27px !important; 
+    width: 152px !important;
+  }
+}
+
 
 .hero {
   background-image: url("/assets/img/background.jpg");
@@ -105,7 +117,7 @@ html,
       font-family: 'Open Sans', Helvetica, Arial, sans-serif;
       font-size: 14px;
       font-weight: 300;
-      line-height: 2;
+      line-height: 1.7;
     }
   }
 }
@@ -132,9 +144,15 @@ html,
     padding-right: 30px !important;
     text-align: center;
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 200;
     margin-bottom: 30px;
+    line-height: 1.7;
+    line-clamp: none;
+    
+    strong {
+      font-weight: bold;
+    }
   }
 
   .button {
@@ -153,11 +171,13 @@ html,
   }
 }
 
-// .social-media {
-//   padding-top: 30px; 
-//   padding-bottom: 30px;
+.social-media {
+  background-color: #fafbfc !important;
 
-//   th {
-//     padding-bottom: 0px;
-//   }
-// }
+  img {
+    height: 25px !important;
+    width: 25px !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
